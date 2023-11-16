@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "899760768361",
+    "firebase_url": "https://pkl-laporan-default-rtdb.firebaseio.com",
+    "project_id": "pkl-laporan",
+    "storage_bucket": "pkl-laporan.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899760768361:android:a7fe32f905bc826784a9f8",
+        "android_client_info": {
+          "package_name": "com.example.laporanadmin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPr3LM_60rl9i4X1FI8iv2l4Jt_3OYkfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:899760768361:android:b0309443aa899fc684a9f8",
+        "android_client_info": {
+          "package_name": "com.example.laporansales"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBPr3LM_60rl9i4X1FI8iv2l4Jt_3OYkfw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

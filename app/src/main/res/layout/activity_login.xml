@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0D1A29"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center">
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:src="@drawable/logo_asli_removebg_preview__1_"/>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="30dp"
+            app:cardCornerRadius="30dp"
+            app:cardElevation="20dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center_horizontal"
+                android:padding="24dp"
+                android:background="@drawable/border_blue">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Login"
+                    android:textSize="30dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:textColor="@color/white"/>
+
+                <EditText
+                    android:id="@+id/logEmail"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Email"
+                    android:padding="8dp"
+                    android:textColor="@color/white"
+                    android:layout_marginTop="40dp"
+                    android:background="@drawable/border_blue"
+                    android:drawableLeft="@drawable/baseline_email_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="8dp"/>
+                <EditText
+                    android:id="@+id/logPassword"
+                    android:layout_width="match_parent"
+                    android:layout_height="50dp"
+                    android:hint="Password"
+                    android:padding="8dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border_blue"
+                    android:textColor="@color/white"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:drawableTint="@color/white"
+                    android:drawablePadding="8dp"/>
+
+            </LinearLayout>
+
+
+
+        </androidx.cardview.widget.CardView>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:id="@+id/btLogin"
+            android:text="Login"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:backgroundTint="#3789ED"/>
+    </LinearLayout>
+
+
+</ScrollView>
